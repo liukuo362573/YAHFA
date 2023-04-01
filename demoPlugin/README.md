@@ -7,6 +7,8 @@ Here is a demo plugin which contains the hook info.
 
 Build the plugin and you'll get an APK file. Push the APK to `/sdcard/demoPlugin-debug.apk` before running the [demoApp](https://github.com/rk700/YAHFA/tree/master/demoApp).
 
+如果出现错误 "java.lang.ClassNotFoundException: lab.galaxy.yahfa.HookInfo"，就把 demoPlugin-debug.apk 放到 /data/local/tmp 下面。
+
 ## How to write a plugin
 
 To hook a method, please create a `Class` which has the following fields:
